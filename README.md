@@ -80,6 +80,8 @@ Control flow, conditional logic, and hands-on coding tasks:
 - **Tasks**:
   - `01_Task_GradeCalculator.js` — grade calculator using if/else
   - `02_Task_FizzBuzz.js` — classic FizzBuzz challenge
+  - `03_Task_TriangleClassifier.js` — classifies triangles by side length
+  - `04_Task_LeapYearChecker.js` — determines if a year is a leap year
 
 ### Chapter 06: Switch Statements
 Multi-way branching and switch-specific logic:
