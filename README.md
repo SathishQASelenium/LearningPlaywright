@@ -8,6 +8,7 @@ Example repository for Playwright and Node.js learning exercises. It contains sm
 - `chapter_03_Identifier_Literal_Operators_Statement/` — identifiers, literals, operators, and statements in JS
 - `chapter_04_Operators/` — arithmetic, assignment, comparison, logical, string, ternary, and type operators
 - `chapter_05_Statements/` — control flow with if/else, real-world examples, and coding tasks
+- `chapter_06_Switch_Statements/` — multi-way branching with switch statements and case grouping
 
 ## Prerequisites
 - Node.js (14+ recommended)
