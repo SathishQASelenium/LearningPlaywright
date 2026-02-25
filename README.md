@@ -76,9 +76,18 @@ Control flow, conditional logic, and hands-on coding tasks:
 - **Interview Questions**: `37_IQ_IF_ESLE.js`, `39_IQ.js` — tricky if/else interview problems
 - **Logical Operators in Conditions**: `38_Logical_Op_IF_ELSE.js` — combining logical operators with if/else
 - **Real If/Else**: `40_REAL_IF_ELSE.js` — real-world conditional examples
+- **Interview Questions**: `41_IQ.js` — Tricky interview questions on truthy/falsy values and conditions.
 - **Tasks**:
   - `01_Task_GradeCalculator.js` — grade calculator using if/else
   - `02_Task_FizzBuzz.js` — classic FizzBuzz challenge
+
+### Chapter 06: Switch Statements
+Multi-way branching and switch-specific logic:
+- **Basics**: `42_Switch.js`, `42_Switch_with_Default.js`, `42_Switch_without_Break.js`
+- **Real-World Usage**: `45_Switch_REAL_EXAMPLE.js`
+- **Grouped Cases**: `46_Switch_GroupCase.js`
+- **Interview Questions & Debugging**: `47_IQ_BUG.js`, `48_IQ.js`, `49_Switch_IQ.js`, `50_Switch_IQ.js`, `51_Switch_IQ.js`
+- **User Input**: `52_User_Input.js`
 
 ## Notes
 - These are learning snippets — they are intentionally minimal. If you want, I can convert them into Playwright tests, add comments, or reorganize into a test suite.
