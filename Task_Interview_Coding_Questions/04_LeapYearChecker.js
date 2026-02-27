@@ -6,7 +6,7 @@
  * Use an if-else statement to make this determination.
  */
 
-let year = 2012;
+let year = 2026;
 
 if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
     console.log(`${year} is a leap year`);

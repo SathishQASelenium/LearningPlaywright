@@ -52,46 +52,137 @@ Contains examples explaining JavaScript fundamentals:
 - **Block Scope**: `15_let_block.js`, `16_var_if_block.js`
 
 ### Chapter 03: Identifiers, Literals, Operators
-Focuses on data types and operators:
-- **Identifiers & Literals**: `19_Identifier.js`, `20_Literals.js`, `21_Literals_all.js`
-- **Types & Equality**: `22_null_Typeof.js`, `23_null_undefined.js`, `24_equals_tripleequals.js`
-- **Interview Questions**: `25_IQ.js` - tricky interview questions related to JS types and operators.
+# LearningPlaywright
+
+Example repository for small JavaScript learning snippets used with TheTestingAcademy tutorials. Files are organized by topic (basics, core JS concepts, operators, statements, loops, switch statements, and coding tasks).
+
+## Contents
+- `chapter_01_Basics/` — beginner JS examples and environment checks
+- `chapter_02_Java_Concepts/` — core JavaScript concepts (comments, identifiers, variables, hoisting, scope)
+- `chapter_03_Identifier_Literal_Operators_Statement/` — identifiers, literals, types, and equality
+- `chapter_04_Operators/` — arithmetic, assignment, comparison, logical, string, ternary, and type operators
+- `chapter_05_Statements/` — control flow with if/else and related examples
+- `chapter_06_Switch_Statements/` — switch statement examples and interview-style problems
+- `chapter_07_Loops/` — loop constructs and loop tasks
+- `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
+
+## Prerequisites
+- Node.js (14+ recommended)
+
+## Install (optional: Playwright)
+
+```bash
+npm install -D @playwright/test
+npx playwright install
+```
+
+## Running examples
+
+Most files are standalone Node scripts. Run with:
+
+```bash
+node chapter_01_Basics/01_basic.js
+```
+
+## Files (detailed)
+
+### Chapter 01: Basics
+- `chapter_01_Basics/01_basic.js` — simple greeting and basic JS execution check.
+- `chapter_01_Basics/02_JS_Step_by_Step.js` — step-by-step examples of variables, loops, and functions.
+- `chapter_01_Basics/03_verify_setup.js` — prints Node/platform info to verify environment.
+- `chapter_01_Basics/04_hot_code.js` — small loop/sample to experiment with hot code changes.
+
+### Chapter 02: Core JS Concepts
+- `chapter_02_Java_Concepts/05_Core_Comments_JS.js` — comment styles and conventions.
+- `chapter_02_Java_Concepts/06_Core_Identifiers_JS.js` — identifiers and naming rules.
+- `chapter_02_Java_Concepts/07_var_let_const.js` — differences between `var`, `let`, and `const`.
+- `chapter_02_Java_Concepts/08_Lab.js` — hands-on exercises for core concepts.
+- `chapter_02_Java_Concepts/09_Hoisting.js` — examples demonstrating hoisting behavior.
+- `chapter_02_Java_Concepts/10_Hoisting_var.js` — hoisting specifics for `var`.
+- `chapter_02_Java_Concepts/11_Hoisting_function.js` — function hoisting examples.
+- `chapter_02_Java_Concepts/12_Hoisitng_if_block.js` — hoisting within blocks and conditionals.
+- `chapter_02_Java_Concepts/13_hoisting.js` — additional hoisting variants.
+- `chapter_02_Java_Concepts/14_let_hoisting.js` — `let` and block-scoped hoisting behavior.
+- `chapter_02_Java_Concepts/15_let_block.js` — block scope examples for `let`.
+- `chapter_02_Java_Concepts/16_var_if_block.js` — `var` inside conditional blocks.
+- `chapter_02_Java_Concepts/17_rogit.js` — misc examples (small experiments).
+- `chapter_02_Java_Concepts/18_const.js` — using `const` and immutability patterns.
+
+### Chapter 03: Identifiers, Literals, Operators, Statements
+- `chapter_03_Identifier_Literal_Operators_Statement/19_Identifier.js` — identifier rules and examples.
+- `chapter_03_Identifier_Literal_Operators_Statement/20_Literals.js` — literal types and usage.
+- `chapter_03_Identifier_Literal_Operators_Statement/21_Literals_all.js` — comprehensive literal examples.
+- `chapter_03_Identifier_Literal_Operators_Statement/22_null_Typeof.js` — `null`, `typeof`, and related quirks.
+- `chapter_03_Identifier_Literal_Operators_Statement/23_null_undefined.js` — `null` vs `undefined` comparisons.
+- `chapter_03_Identifier_Literal_Operators_Statement/24_equals_tripleequals.js` — `==` vs `===` behavior.
+- `chapter_03_Identifier_Literal_Operators_Statement/25_IQ.js` — interview-style questions on types and operators.
 
 ### Chapter 04: Operators
-Covers all major JavaScript operator categories:
-- **Arithmetic**: `26_Arithmetic_Operator.js` — addition, subtraction, multiplication, division, modulus, increment, decrement
-- **Assignment**: `27_Assignment_Operators.js` — `=`, `+=`, `-=`, `*=`, etc.
-- **Comparison**: `28_Comparsion_Operators.js` — `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`
-- **Logical**: `29_Logical_Operators.js` — `&&`, `||`, `!`
-- **String**: `30_String_Operators.js` — string concatenation with `+`
-- **Ternary**: `31_Ternary_Operators.js` — conditional (ternary) operator `condition ? a : b`
-- **Type**: `31_Type_Operators.js` — `typeof` and `instanceof`
-- **Nullish/Optional**: `32_Null_Optional_Value.js` — nullish coalescing (`??`) and optional chaining (`?.`)
+- `chapter_04_Operators/26_Arithmetic_Operator.js` — arithmetic operations and increment/decrement.
+- `chapter_04_Operators/27_Assignment_Operators.js` — assignment operator examples.
+- `chapter_04_Operators/28_Comparsion_Operators.js` — comparison operator examples.
+- `chapter_04_Operators/29_Logical_Operators.js` — logical operators (`&&`, `||`, `!`).
+- `chapter_04_Operators/30_String_Operators.js` — string concatenation and operations.
+- `chapter_04_Operators/31_Ternary_Operators.js` — ternary operator usage.
+- `chapter_04_Operators/31_Type_Operators.js` — `typeof`, `instanceof` and type checks.
+- `chapter_04_Operators/32_Null_Optional_Value.js` — nullish coalescing (`??`) and optional chaining (`?.`).
 
 ### Chapter 05: Statements & Control Flow
-Control flow, conditional logic, and hands-on coding tasks:
-- **Statements Intro**: `33_Statement.js` — basic statement structure
-- **If / Else If**: `34_If_else_If.js` — conditional branching
-- **Real-World Example**: `35_REAL_LIVE_Example.js` — practical if/else usage
-- **API If/Else**: `36_API_IF_ELSE.js` — conditionals with API response handling
-- **Interview Questions**: `37_IQ_IF_ESLE.js`, `39_IQ.js` — tricky if/else interview problems
-- **Logical Operators in Conditions**: `38_Logical_Op_IF_ELSE.js` — combining logical operators with if/else
-- **Real If/Else**: `40_REAL_IF_ELSE.js` — real-world conditional examples
-- **Interview Questions**: `41_IQ.js` — Tricky interview questions on truthy/falsy values and conditions.
-- **Tasks**:
-  - `01_Task_GradeCalculator.js` — grade calculator using if/else
-  - `02_Task_FizzBuzz.js` — classic FizzBuzz challenge
-  - `03_Task_TriangleClassifier.js` — classifies triangles by side length
-  - `04_Task_LeapYearChecker.js` — determines if a year is a leap year
+- `chapter_05_Statements/33_Statement.js` — statement structure and basic examples.
+- `chapter_05_Statements/34_If_else_If.js` — if / else-if examples.
+- `chapter_05_Statements/35_REAL_LIVE_Example.js` — practical conditional examples.
+- `chapter_05_Statements/36_API_IF_ELSE.js` — conditional handling for API-like responses.
+- `chapter_05_Statements/37_IQ_IF_ESLE.js` — interview-style if/else puzzles.
+- `chapter_05_Statements/38_Logical_Op_IF_ELSE.js` — using logical operators inside conditions.
+- `chapter_05_Statements/39_IQ.js` — interview questions and edge-cases.
+- `chapter_05_Statements/40_REAL_IF_ELSE.js` — additional real-world conditional examples.
+- `chapter_05_Statements/41_IQ.js` — more interview-style conditional problems.
 
 ### Chapter 06: Switch Statements
-Multi-way branching and switch-specific logic:
-- **Basics**: `42_Switch.js`, `42_Switch_with_Default.js`, `42_Switch_without_Break.js`
-- **Real-World Usage**: `45_Switch_REAL_EXAMPLE.js`
-- **Grouped Cases**: `46_Switch_GroupCase.js`
-- **Interview Questions & Debugging**: `47_IQ_BUG.js`, `48_IQ.js`, `49_Switch_IQ.js`, `50_Switch_IQ.js`, `51_Switch_IQ.js`
-- **User Input**: `52_User_Input.js`
+- `chapter_06_Switch_Statements/42_Switch.js` — basic switch usage.
+- `chapter_06_Switch_Statements/42_Switch_with_Default.js` — switch with default case.
+- `chapter_06_Switch_Statements/42_Switch_without_Break.js` — fall-through behavior without `break`.
+- `chapter_06_Switch_Statements/45_Switch_REAL_EXAMPLE.js` — real-world switch example.
+- `chapter_06_Switch_Statements/46_Switch_GroupCase.js` — grouped cases and handling multiple values.
+- `chapter_06_Switch_Statements/47_IQ_BUG.js` — debugging switch-related pitfalls.
+- `chapter_06_Switch_Statements/48_IQ.js` — interview-style switch questions.
+- `chapter_06_Switch_Statements/49_Switch_IQ.js` — additional interview problems.
+- `chapter_06_Switch_Statements/50_Switch_IQ.js` — additional interview problems.
+- `chapter_06_Switch_Statements/51_Switch_IQ.js` — additional interview problems.
+- `chapter_06_Switch_Statements/52_User_Input.js` — example reading user input and using switch.
+
+### Chapter 07: Loops
+- `chapter_07_Loops/53_Loops.js` — loop overview and examples.
+- `chapter_07_Loops/54_Incremnt_operator.js` — increment operator usages.
+- `chapter_07_Loops/55_Incremnt_operator2.js` — more increment/decrement examples.
+- `chapter_07_Loops/56_For_Loops.js` — `for` loop examples.
+- `chapter_07_Loops/57_For_Loop.js` — additional `for` loop exercises.
+- `chapter_07_Loops/58_For_Loop2.js` — more `for` loop variants.
+- `chapter_07_Loops/59_While_Loop.js` — `while` loop examples.
+- `chapter_07_Loops/60_While_2.js` — additional `while` loop exercises.
+- `chapter_07_Loops/61_DO_while.js` — `do..while` examples.
+- `chapter_07_Loops/62_DO_while_2.js` — more `do..while` exercises.
+
+### Task: Interview / Coding Questions
+- `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
+- `Task_Interview_Coding_Questions/02_FizzBuzz.js` — FizzBuzz problem implementation.
+- `Task_Interview_Coding_Questions/03_TriangleClassifier.js` — classify triangles by side lengths.
+- `Task_Interview_Coding_Questions/04_LeapYearChecker.js` — leap-year checking logic.
+- `Task_Interview_Coding_Questions/05_Increment_Decrement.js` — increment/decrement behavior exercises.
+- `Task_Interview_Coding_Questions/06_For_Loop_Task1.js` — for-loop challenge 1.
+- `Task_Interview_Coding_Questions/07_For_Loop_Task2.js` — for-loop challenge 2.
+- `Task_Interview_Coding_Questions/08_For_Loop_Task3.js` — for-loop challenge 3.
+- `Task_Interview_Coding_Questions/09_For_Loop_Task4.js` — for-loop challenge 4.
+- `Task_Interview_Coding_Questions/10_For_Loop_Task5.js` — for-loop challenge 5.
+- `Task_Interview_Coding_Questions/11_While_Loop_Task1.js` — while-loop challenge 1.
+- `Task_Interview_Coding_Questions/12_While_Loop_Task2.js` — while-loop challenge 2.
+- `Task_Interview_Coding_Questions/13_While_Loop_Task3.js` — while-loop challenge 3.
+- `Task_Interview_Coding_Questions/14_While_Loop_Task4.js` — while-loop challenge 4.
+- `Task_Interview_Coding_Questions/15_While_Loop_Task5.js` — while-loop challenge 5.
 
 ## Notes
-- These are learning snippets — they are intentionally minimal. If you want, I can convert them into Playwright tests, add comments, or reorganize into a test suite.
+- These files are learning snippets and intentionally concise. I can:
+	- Convert them into Playwright tests,
+	- Add richer comments and examples,
+	- Or reorganize into a testable suite if you'd like.
 

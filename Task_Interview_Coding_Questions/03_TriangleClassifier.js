@@ -8,7 +8,7 @@
  */
 
 let side1 = 5;
-let side2 = 7;
+let side2 = 6;
 let side3 = 6;
 
 if (side1 === side2 && side2 === side3) {
