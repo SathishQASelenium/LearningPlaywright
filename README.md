@@ -1,59 +1,5 @@
 # LearningPlaywright
 
-Example repository for Playwright and Node.js learning exercises. It contains small example scripts used while following TheTestingAcademy tutorials.
-
-## Contents
-- `chapter_01_Basics/` — beginner JS examples used to verify environment and experiment with small scripts
-- `chapter_02_Java_Concepts/` — core JavaScript concepts (variables, hoisting, block scope)
-- `chapter_03_Identifier_Literal_Operators_Statement/` — identifiers, literals, operators, and statements in JS
-- `chapter_04_Operators/` — arithmetic, assignment, comparison, logical, string, ternary, and type operators
-- `chapter_05_Statements/` — control flow with if/else, real-world examples, and coding tasks
-- `chapter_06_Switch_Statements/` — multi-way branching with switch statements and case grouping
-
-## Prerequisites
-- Node.js (14+ recommended)
-
-## Install (if you plan to use Playwright)
-
-```bash
-npm install -D @playwright/test
-npx playwright install
-```
-
-## Run (examples)
-
-Most files in these chapters are standalone Node scripts — run them with `node path/to/file.js`.
-
-For example:
-```bash
-node chapter_01_Basics/01_basic.js
-```
-
-## Files (detailed)
-
-### Chapter 01: Basics
-- **`chapter_01_Basics/01_basic.js`**:
-	- Very small example that prints a greeting to the console. Use it to confirm Node can run a script.
-
-- **`chapter_01_Basics/02_JS_Step_by_Step.js`**:
-	- Demonstrates basic JavaScript variables, a `for` loop and function calls.
-
-- **`chapter_01_Basics/03_verify_setup.js`**:
-	- Prints platform, CPU architecture, and Node.js version information to help verify your runtime environment.
-
-- **`chapter_01_Basics/04_hot_code.js`**:
-	- Small CPU-bound loop useful for experimenting with hot-code editing.
-
-### Chapter 02: Core JS Concepts
-Contains examples explaining JavaScript fundamentals:
-- **Comments & Identifiers**: `05_Core_Comments_JS.js`, `06_Core_Identifiers_JS.js`
-- **Variables (var, let, const)**: `07_var_let_const.js`, `18_const.js`
-- **Hoisting**: Examples demonstrating variable and function hoisting (`09_Hoisting.js`, `10_Hoisting_var.js`...)
-- **Block Scope**: `15_let_block.js`, `16_var_if_block.js`
-
-### Chapter 03: Identifiers, Literals, Operators
-# LearningPlaywright
-
 Example repository for small JavaScript learning snippets used with TheTestingAcademy tutorials. Files are organized by topic (basics, core JS concepts, operators, statements, loops, switch statements, and coding tasks).
 
 ## Contents
@@ -65,6 +11,7 @@ Example repository for small JavaScript learning snippets used with TheTestingAc
 - `chapter_06_Switch_Statements/` — switch statement examples and interview-style problems
 - `chapter_07_Loops/` — loop constructs and loop tasks
 - `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
+- `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises covering real-world testing scenarios
 
 ## Prerequisites
 - Node.js (14+ recommended)
@@ -180,9 +127,21 @@ node chapter_01_Basics/01_basic.js
 - `Task_Interview_Coding_Questions/14_While_Loop_Task4.js` — while-loop challenge 4.
 - `Task_Interview_Coding_Questions/15_While_Loop_Task5.js` — while-loop challenge 5.
 
-## Notes
-- These files are learning snippets and intentionally concise. I can:
-	- Convert them into Playwright tests,
-	- Add richer comments and examples,
-	- Or reorganize into a testable suite if you'd like.
+### Test: JavaScript Basics Part 2 with Coding
+SDET-focused coding exercises that apply JavaScript fundamentals to real-world testing scenarios:
+- `Test_JavaScript_Basics_Part2_with_Coding/01_API_Response_Status_Code_Validator.js` — classify HTTP status codes using switch statements.
+- `Test_JavaScript_Basics_Part2_with_Coding/02_Test_Case_Result_Counter.js` — count pass/fail/skip results and generate a test report.
+- `Test_JavaScript_Basics_Part2_with_Coding/03_Retry_Failed_API_Call.js` — simulate retrying failed API calls with loops.
+- `Test_JavaScript_Basics_Part2_with_Coding/04_Element_Visibility_Checker.js` — check UI element visibility conditions.
+- `Test_JavaScript_Basics_Part2_with_Coding/05_Test_Data_Generator.js` — generate test data programmatically.
+- `Test_JavaScript_Basics_Part2_with_Coding/06_Bug_Severity_Classifier.js` — classify bug severity using frequency and impact matrix.
+- `Test_JavaScript_Basics_Part2_with_Coding/07_Response_Time_SLA_Analyzer.js` — analyze API response times against SLA thresholds.
+- `Test_JavaScript_Basics_Part2_with_Coding/08_Test_Environment_Config.js` — manage test environment configurations.
+- `Test_JavaScript_Basics_Part2_with_Coding/09_Login_Brute-Force_Detection.js` — detect brute-force login attempts.
+- `Test_JavaScript_Basics_Part2_with_Coding/10_Mini_Test_Suite_Runner.js` — mini test runner combining all JS topics (loops, switch, operators, type checks).
 
+## Notes
+- These files are learning snippets and intentionally concise. They can be:
+  - Converted into Playwright tests,
+  - Enhanced with richer comments and examples,
+  - Or reorganized into a testable suite if needed.
