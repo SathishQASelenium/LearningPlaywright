@@ -10,6 +10,7 @@ Example repository for small JavaScript learning snippets used with TheTestingAc
 - `chapter_05_Statements/` — control flow with if/else and related examples
 - `chapter_06_Switch_Statements/` — switch statement examples and interview-style problems
 - `chapter_07_Loops/` — loop constructs and loop tasks
+- `chapter_08_Arrays/` — array creation, manipulation, searching, iterating, transforming, and sorting
 - `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
 - `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises covering real-world testing scenarios
 
@@ -109,6 +110,16 @@ node chapter_01_Basics/01_basic.js
 - `chapter_07_Loops/60_While_2.js` — additional `while` loop exercises.
 - `chapter_07_Loops/61_DO_while.js` — `do..while` examples.
 - `chapter_07_Loops/62_DO_while_2.js` — more `do..while` exercises.
+
+### Chapter 08: Arrays
+- `chapter_08_Arrays/63_Arrays_Creation.js` — array creation methods (literal, constructor, `Array.of()`, `Array.from()`).
+- `chapter_08_Arrays/64_Arrays_Access_Modify.js` — accessing elements by index, `.at()`, and modifying values.
+- `chapter_08_Arrays/65_Arrays_Adding_Remove.js` — adding/removing with `push`, `pop`, `unshift`, `shift`, and `splice`.
+- `chapter_08_Arrays/66_Arrays_REAL.js` — real-world array operations with browser list example.
+- `chapter_08_Arrays/67_Arrays_Searching.js` — searching with `indexOf`, `includes`, `find`, `findIndex`, `findLast`.
+- `chapter_08_Arrays/68_Arrays_Iterating.js` — iterating with `for`, `for...of`, `forEach`, `entries()`, `for...in`.
+- `chapter_08_Arrays/69_Arrays_Transforming_Arrays.js` — transforming with `map`, `filter`, `reduce`, and `flat`.
+- `chapter_08_Arrays/70_Arrays_Sorting.js` — sorting arrays alphabetically and numerically with compare functions.
 
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
