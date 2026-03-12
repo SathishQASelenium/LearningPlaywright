@@ -11,6 +11,7 @@ Example repository for small JavaScript learning snippets used with TheTestingAc
 - `chapter_06_Switch_Statements/` — switch statement examples and interview-style problems
 - `chapter_07_Loops/` — loop constructs and loop tasks
 - `chapter_08_Arrays/` — array creation, manipulation, searching, iterating, transforming, and sorting
+- `chapter_09_Functions/` — function basics, types, arrow functions, default parameters, rest parameters, IIFE, and examples
 - `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
 - `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises covering real-world testing scenarios
 
@@ -125,6 +126,22 @@ node chapter_01_Basics/01_basic.js
 - `chapter_08_Arrays/73_Arrays_Copying_Shallow_Deep.js` — shallow and deep copying arrays using spread, `slice()`, `Array.from()`, and `concat()`.
 - `chapter_08_Arrays/74_Arrays_Destructuring.js` — array destructuring to extract elements into variables.
 - `chapter_08_Arrays/75_Task.js` — task demonstrating shallow copy behavior and reference sharing in arrays.
+
+### Chapter 09: Functions
+- `chapter_09_Functions/76_Functions.js` — function basics and introduction.
+- `chapter_09_Functions/77_Type1_Fn_Basic_Functions.js` — basic function types.
+- `chapter_09_Functions/78_Type2_Fn_With_Arg_No_Return.js` — functions with arguments but no return.
+- `chapter_09_Functions/79_Type3_Fn_without_Arg_Return_Type.js` — functions without arguments but with return.
+- `chapter_09_Functions/80_Type4_Fn_With_Arg_With_Return.js` — functions with arguments and return.
+- `chapter_09_Functions/81_Ex.js` — function exercises.
+- `chapter_09_Functions/82_Fn_Expression.js` — function expressions and usage.
+- `chapter_09_Functions/83_Fn_Arrow.js` — arrow function syntax and examples.
+- `chapter_09_Functions/84_Ex_API_Testing.js` — API testing examples with functions.
+- `chapter_09_Functions/85_Fn_IIFE.js` — Immediately Invoked Function Expressions (IIFE).
+- `chapter_09_Functions/86_IQ.js` — interview-style function questions.
+- `chapter_09_Functions/87_Default_Parameter.js` — default parameters in functions.
+- `chapter_09_Functions/88_Rest_Parameters_Fn.js` — rest parameters and spread operator.
+- `chapter_09_Functions/89_IQ_Fn.JS` — additional interview-style function problems.
 
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
