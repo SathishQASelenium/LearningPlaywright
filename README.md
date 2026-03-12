@@ -120,6 +120,11 @@ node chapter_01_Basics/01_basic.js
 - `chapter_08_Arrays/68_Arrays_Iterating.js` — iterating with `for`, `for...of`, `forEach`, `entries()`, `for...in`.
 - `chapter_08_Arrays/69_Arrays_Transforming_Arrays.js` — transforming with `map`, `filter`, `reduce`, and `flat`.
 - `chapter_08_Arrays/70_Arrays_Sorting.js` — sorting arrays alphabetically and numerically with compare functions.
+- `chapter_08_Arrays/71_Arrays_Slicing.js` — slicing arrays with `slice()`, concatenation with `concat()` and spread operator, joining arrays.
+- `chapter_08_Arrays/72_Arrays_Checking.js` — checking if a value is an array with `Array.isArray()`, using `every()` and `some()` for conditional checks.
+- `chapter_08_Arrays/73_Arrays_Copying_Shallow_Deep.js` — shallow and deep copying arrays using spread, `slice()`, `Array.from()`, and `concat()`.
+- `chapter_08_Arrays/74_Arrays_Destructuring.js` — array destructuring to extract elements into variables.
+- `chapter_08_Arrays/75_Task.js` — task demonstrating shallow copy behavior and reference sharing in arrays.
 
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
