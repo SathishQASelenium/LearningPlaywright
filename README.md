@@ -160,6 +160,9 @@ node chapter_01_Basics/01_basic.js
 - `Task_Interview_Coding_Questions/13_While_Loop_Task3.js` — while-loop challenge 3.
 - `Task_Interview_Coding_Questions/14_While_Loop_Task4.js` — while-loop challenge 4.
 - `Task_Interview_Coding_Questions/15_While_Loop_Task5.js` — while-loop challenge 5.
+- `Task_Interview_Coding_Questions/16_Arrays_API_Response_Validation.js` — validate API responses using array methods.
+- `Task_Interview_Coding_Questions/17_Arrays_Spot_the_Bug.js` — fix array sorting bug in response times.
+- `Task_Interview_Coding_Questions/18_Deep_vs_Shallow_Copy.js` — understand shallow copy reference behavior.
 
 ### Test: Playwright JavaScript Part 3
 Advanced SDET-focused coding exercises with callbacks and real-world testing scenarios:
