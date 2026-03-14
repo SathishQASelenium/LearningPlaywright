@@ -18,12 +18,12 @@ let results = [
     { name: "logout", status: "failed", durationMs: 200 }
 ];
 
-let totalSteps = results.length;
-let passedCount = 0;
-let failedCount = 0;
-let skippedCount = 0;
-let totalDuration = 0;
-let failedSteps = [];
+let totalSteps = results.length; // Total number of steps is the length of the results array
+let passedCount = 0; // Initialize passed count to 0
+let failedCount = 0; // Initialize failed count to 0
+let skippedCount = 0; // Initialize skipped count to 0
+let totalDuration = 0; // Initialize total duration to 0
+let failedSteps = []; // Initialize an array to hold the names of failed steps
 
 results.forEach(result => {
     totalDuration += result.durationMs;
@@ -31,7 +31,7 @@ results.forEach(result => {
         passedCount++;
     } else if (result.status === "failed") {
         failedCount++;
-        failedSteps.push(result.name);
+        failedSteps.push(result.name); // Add the name of the failed step to the failedSteps array
     } else if (result.status === "skipped") {
         skippedCount++;
     }
