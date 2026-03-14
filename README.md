@@ -14,6 +14,7 @@ Example repository for small JavaScript learning snippets used with TheTestingAc
 - `chapter_09_Functions/` — function basics, types, arrow functions, default parameters, rest parameters, IIFE, and examples
 - `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
 - `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises covering real-world testing scenarios
+- `Test_Playwright_JavaScript_Part3/` — Advanced Playwright JS exercises with callbacks
 
 ## Prerequisites
 - Node.js (14+ recommended)
@@ -159,6 +160,14 @@ node chapter_01_Basics/01_basic.js
 - `Task_Interview_Coding_Questions/13_While_Loop_Task3.js` — while-loop challenge 3.
 - `Task_Interview_Coding_Questions/14_While_Loop_Task4.js` — while-loop challenge 4.
 - `Task_Interview_Coding_Questions/15_While_Loop_Task5.js` — while-loop challenge 5.
+
+### Test: Playwright JavaScript Part 3
+Advanced SDET-focused coding exercises with callbacks and real-world testing scenarios:
+- `Test_Playwright_JavaScript_Part3/01_Playwright_Result_Summary_Generator.js` — generate summary reports from Playwright test results.
+- `Test_Playwright_JavaScript_Part3/02_Build_Test_Users_from_Arrays.js` — build test user objects from separate arrays.
+- `Test_Playwright_JavaScript_Part3/03_Normalize_Locator_Error_Messages.js` — normalize and format locator error messages.
+- `Test_Playwright_JavaScript_Part3/04_Browser_Execution_Planner.js` — plan browser execution based on test priorities.
+- `Test_Playwright_JavaScript_Part3/05_Reusable_Step_Runner_with_Callback.js` — implement reusable step runner with callback support.
 
 ### Test: JavaScript Basics Part 2 with Coding
 SDET-focused coding exercises that apply JavaScript fundamentals to real-world testing scenarios:
