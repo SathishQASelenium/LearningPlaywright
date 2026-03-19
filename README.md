@@ -17,7 +17,7 @@ Example repository for small JavaScript learning snippets used with TheTestingAc
 - `Test_Playwright_JavaScript_Part3/` — Advanced Playwright JS exercises with callbacks
 
 ## Prerequisites
-- Node.js (14+ recommended)
+- Node.js (18+ recommended)
 
 ## Install (optional: Playwright)
 
@@ -143,6 +143,18 @@ node chapter_01_Basics/01_basic.js
 - `chapter_09_Functions/87_Default_Parameter.js` — default parameters in functions.
 - `chapter_09_Functions/88_Rest_Parameters_Fn.js` — rest parameters and spread operator.
 - `chapter_09_Functions/89_IQ_Fn.JS` — additional interview-style function problems.
+- `chapter_09_Functions/90_Spread_Fn.js` — spread operator in functions.
+- `chapter_09_Functions/91_Return_Values_Fn.js` — return values from functions.
+- `chapter_09_Functions/92_Hoisting_Fn.js` — function hoisting.
+- `chapter_09_Functions/93_Scope_Fn.js` — scope in functions.
+- `chapter_09_Functions/94_Closure.js` — closures introduction.
+- `chapter_09_Functions/95_Closure_Part2.js` — closures practice.
+- `chapter_09_Functions/96_Closures_Part3.js` — closures advanced.
+- `chapter_09_Functions/97_Closure_Part4.js` — closures deep dive.
+- `chapter_09_Functions/98_Higher_Order_Fn.js` — higher-order functions.
+- `chapter_09_Functions/99_Pure_Fn.js` — pure functions.
+- `chapter_09_Functions/100_Callback_Fn.js` — callback functions.
+- `chapter_09_Functions/101_Callback_me.js` — callback exercises.
 
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
@@ -163,6 +175,7 @@ node chapter_01_Basics/01_basic.js
 - `Task_Interview_Coding_Questions/16_Arrays_API_Response_Validation.js` — validate API responses using array methods.
 - `Task_Interview_Coding_Questions/17_Arrays_Spot_the_Bug.js` — fix array sorting bug in response times.
 - `Task_Interview_Coding_Questions/18_Deep_vs_Shallow_Copy.js` — understand shallow copy reference behavior.
+- `Task_Interview_Coding_Questions/19_Functions_Task_17032026.js` — function tasks and exercises.
 
 ### Test: Playwright JavaScript Part 3
 Advanced SDET-focused coding exercises with callbacks and real-world testing scenarios:
