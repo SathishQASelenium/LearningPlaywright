@@ -190,3 +190,6 @@ SDET-focused coding exercises that apply JavaScript fundamentals to real-world t
   - Converted into Playwright tests,
   - Enhanced with richer comments and examples,
   - Or reorganized into a testable suite if needed.
+
+## Quick Tip: Arrow functions & `this`
+- Arrow functions don’t have their own `this`; they inherit it from the surrounding scope. When used as object methods, they typically do **not** behave like regular function methods.
