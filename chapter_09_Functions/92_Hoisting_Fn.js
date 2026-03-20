@@ -11,6 +11,8 @@ function greet(name) {
 
 
 sayHi("Bob"); // ❌ TypeError: sayHi is not a function
+// const Function expressions and arrow functions are NOT hoisted, 
+// so they cannot be called before their definition.
 
 const sayHi = function (name) {
     return `Hi, ${name}!`;

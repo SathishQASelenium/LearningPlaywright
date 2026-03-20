@@ -9,7 +9,7 @@ function setupConfig() {
 }
 
 setupConfig();
-console.log(env);
+console.log(env); // ✅ can access global
 console.log(timeout); // ❌ ReferenceError — not accessible outside
 
 // ---- 
