@@ -15,6 +15,6 @@ function loginTest() {
 function loginTestFAILED() {
     return "fail";
 }
-
+// Passing a function as an argument to another function is possible in JavaScript
 runWithLogging(loginTest, "Login Test");
 runWithLogging(loginTestFAILED, "Dashboard Failed Test");
