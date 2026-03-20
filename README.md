@@ -12,6 +12,7 @@ Example repository for small JavaScript learning snippets used with TheTestingAc
 - `chapter_07_Loops/` — loop constructs and loop tasks
 - `chapter_08_Arrays/` — array creation, manipulation, searching, iterating, transforming, and sorting
 - `chapter_09_Functions/` — function basics, types, arrow functions, default parameters, rest parameters, IIFE, and examples
+- `chapter_10_Strings/` — string creation, properties, searching, extracting, transforming, and conversion
 - `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
 - `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises covering real-world testing scenarios
 - `Test_Playwright_JavaScript_Part3/` — Advanced Playwright JS exercises with callbacks
@@ -156,6 +157,14 @@ node chapter_01_Basics/01_basic.js
 - `chapter_09_Functions/100_Callback_Fn.js` — callback functions.
 - `chapter_09_Functions/101_Callback_me.js` — callback exercises.
 
+### Chapter 10: Strings
+- `chapter_10_Strings/102_Strings.js` — string creation and basic operations.
+- `chapter_10_Strings/103_String_Properties.js` — string properties and length.
+- `chapter_10_Strings/104_Strings_Search_Check.js` — searching and checking within strings using `indexOf`, `includes`, `startsWith`, `endsWith`, `search`.
+- `chapter_10_Strings/105_Strings_Extracting.js` — extracting substrings with `slice`, `substring`, `substr`, and `charAt`.
+- `chapter_10_Strings/106_Strings_Transforming.js` — transforming strings with `toUpperCase`, `toLowerCase`, `trim`, `padStart`, `padEnd`, `replace`, `replaceAll`, `split`.
+- `chapter_10_Strings/107_Strings_Conversion.js` — converting between strings and other types (`String()`, `toString()`, `JSON.stringify`, template literals).
+
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
 - `Task_Interview_Coding_Questions/02_FizzBuzz.js` — FizzBuzz problem implementation.
@@ -176,6 +185,7 @@ node chapter_01_Basics/01_basic.js
 - `Task_Interview_Coding_Questions/17_Arrays_Spot_the_Bug.js` — fix array sorting bug in response times.
 - `Task_Interview_Coding_Questions/18_Deep_vs_Shallow_Copy.js` — understand shallow copy reference behavior.
 - `Task_Interview_Coding_Questions/19_Functions_Task_17032026.js` — function tasks and exercises.
+- `Task_Interview_Coding_Questions/20_Functions_Strings_19032026.js` — functions and strings combined exercises.
 
 ### Test: Playwright JavaScript Part 3
 Advanced SDET-focused coding exercises with callbacks and real-world testing scenarios:
