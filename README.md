@@ -13,6 +13,8 @@ Example repository for small JavaScript learning snippets used with TheTestingAc
 - `chapter_08_Arrays/` — array creation, manipulation, searching, iterating, transforming, and sorting
 - `chapter_09_Functions/` — function basics, types, arrow functions, default parameters, rest parameters, IIFE, and examples
 - `chapter_10_Strings/` — string creation, properties, searching, extracting, transforming, and conversion
+- `chapter_11_Objects/` — object creation, properties, descriptors, spread, getters/setters, and methods
+- `chapter_12_Multi_Dimentional_Arrays/` — multi-dimensional array examples and operations
 - `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
 - `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises covering real-world testing scenarios
 - `Test_Playwright_JavaScript_Part3/` — Advanced Playwright JS exercises with callbacks
@@ -165,6 +167,23 @@ node chapter_01_Basics/01_basic.js
 - `chapter_10_Strings/106_Strings_Transforming.js` — transforming strings with `toUpperCase`, `toLowerCase`, `trim`, `padStart`, `padEnd`, `replace`, `replaceAll`, `split`.
 - `chapter_10_Strings/107_Strings_Conversion.js` — converting between strings and other types (`String()`, `toString()`, `JSON.stringify`, template literals).
 
+### Chapter 11: Objects
+- `chapter_11_Objects/108_Objects.js` — object creation and basic operations.
+- `chapter_11_Objects/109_Objects_Consts.js` — objects with const and their behavior.
+- `chapter_11_Objects/110_Objects.js` — additional object examples.
+- `chapter_11_Objects/111_Primitive_Ref.js` — primitive vs reference type behavior.
+- `chapter_11_Objects/112_Object_Property_Desciptor.js` — property descriptors and their attributes.
+- `chapter_11_Objects/113_Objects.js` — additional object examples.
+- `chapter_11_Objects/114_Object_Dec.js` — object declaration patterns.
+- `chapter_11_Objects/115_Spread_Objects.js` — spread operator with objects.
+- `chapter_11_Objects/116_GETTER_SETTER.js` — getters and setters in objects.
+- `chapter_11_Objects/117_Objects_methods.js` — object methods and this context.
+- `chapter_11_Objects/118_REAL_Object.js` — real-world object usage examples.
+- `chapter_11_Objects/119_Let_const_Objects.js` — `let` vs `const` with objects.
+
+### Chapter 12: Multi-Dimensional Arrays
+- `chapter_12_Multi_Dimentional_Arrays/120_MD_Array.js` — multi-dimensional array creation, access, and operations.
+
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
 - `Task_Interview_Coding_Questions/02_FizzBuzz.js` — FizzBuzz problem implementation.
@@ -186,6 +205,7 @@ node chapter_01_Basics/01_basic.js
 - `Task_Interview_Coding_Questions/18_Deep_vs_Shallow_Copy.js` — understand shallow copy reference behavior.
 - `Task_Interview_Coding_Questions/19_Functions_Task_17032026.js` — function tasks and exercises.
 - `Task_Interview_Coding_Questions/20_Functions_Strings_19032026.js` — functions and strings combined exercises.
+- `Task_Interview_Coding_Questions/21_Objects_24032026.js` — objects exercises and practice.
 
 ### Test: Playwright JavaScript Part 3
 Advanced SDET-focused coding exercises with callbacks and real-world testing scenarios:
