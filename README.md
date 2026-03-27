@@ -2,6 +2,28 @@
 
 Example repository for small JavaScript learning snippets used with TheTestingAcademy tutorials. Files are organized by topic (basics, core JS concepts, operators, statements, loops, switch statements, and coding tasks).
 
+## Project Structure
+
+```
+LearningPlaywright/
+├── chapter_01_Basics/                     # Beginner JS examples and environment checks
+├── chapter_02_Java_Concepts/              # Core JavaScript concepts (comments, identifiers, variables, hoisting, scope)
+├── chapter_03_Identifier_Literal_Operators_Statement/  # Identifiers, literals, types, and equality
+├── chapter_04_Operators/                 # Arithmetic, assignment, comparison, logical, string, ternary, and type operators
+├── chapter_05_Statements/                # Control flow with if/else and related examples
+├── chapter_06_Switch_Statements/          # Switch statement examples and interview-style problems
+├── chapter_07_Loops/                     # Loop constructs and loop tasks
+├── chapter_08_Arrays/                    # Array creation, manipulation, searching, iterating, transforming, and sorting
+├── chapter_09_Functions/                 # Function basics, types, arrow functions, default parameters, rest parameters, IIFE
+├── chapter_10_Strings/                   # String creation, properties, searching, extracting, transforming, and conversion
+├── chapter_11_Objects/                  # Object creation, properties, descriptors, spread, getters/setters, and methods
+├── chapter_12_Multi_Dimentional_Arrays/  # Multi-dimensional array examples and operations
+├── Task_Interview_Coding_Questions/      # Standalone interview/coding challenge implementations
+├── Test_JavaScript_Basics_Part2_with_Coding/  # SDET-focused coding exercises
+├── Test_Playwright_JavaScript_Part3/     # Advanced Playwright JS exercises with callbacks
+└── README.md                             # This file
+```
+
 ## Contents
 - `chapter_01_Basics/` — beginner JS examples and environment checks
 - `chapter_02_Java_Concepts/` — core JavaScript concepts (comments, identifiers, variables, hoisting, scope)
@@ -183,6 +205,11 @@ node chapter_01_Basics/01_basic.js
 
 ### Chapter 12: Multi-Dimensional Arrays
 - `chapter_12_Multi_Dimentional_Arrays/120_MD_Array.js` — multi-dimensional array creation, access, and operations.
+- `chapter_12_Multi_Dimentional_Arrays/121_MD_Array_Part2.js` — additional multi-dimensional array operations.
+- `chapter_12_Multi_Dimentional_Arrays/122_MD_Array_Funtions.js` — functions with multi-dimensional arrays.
+- `chapter_12_Multi_Dimentional_Arrays/123_MD_Pattern_RIGHT.js` — right-side pattern using multi-dimensional arrays.
+- `chapter_12_Multi_Dimentional_Arrays/124_MD_Left_hand.js` — left-hand pattern exercises.
+- `chapter_12_Multi_Dimentional_Arrays/125_Pyramid_Pattern.js` — pyramid pattern implementation.
 
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
@@ -206,6 +233,8 @@ node chapter_01_Basics/01_basic.js
 - `Task_Interview_Coding_Questions/19_Functions_Task_17032026.js` — function tasks and exercises.
 - `Task_Interview_Coding_Questions/20_Functions_Strings_19032026.js` — functions and strings combined exercises.
 - `Task_Interview_Coding_Questions/21_Objects_24032026.js` — objects exercises and practice.
+- `Task_Interview_Coding_Questions/22_2D_RightTriangle.js` — 2D right triangle pattern.
+- `Task_Interview_Coding_Questions/23_2D_Inverted_Pyramid.js` — 2D inverted pyramid pattern.
 
 ### Test: Playwright JavaScript Part 3
 Advanced SDET-focused coding exercises with callbacks and real-world testing scenarios:
