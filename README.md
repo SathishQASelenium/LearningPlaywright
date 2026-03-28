@@ -18,9 +18,13 @@ LearningPlaywright/
 ├── chapter_10_Strings/                   # String creation, properties, searching, extracting, transforming, and conversion
 ├── chapter_11_Objects/                  # Object creation, properties, descriptors, spread, getters/setters, and methods
 ├── chapter_12_Multi_Dimentional_Arrays/  # Multi-dimensional array examples and operations
+├── chapter_13_Callback/                  # Callback functions, synchronous and asynchronous examples, callback hell, and patterns
 ├── Task_Interview_Coding_Questions/      # Standalone interview/coding challenge implementations
 ├── Test_JavaScript_Basics_Part2_with_Coding/  # SDET-focused coding exercises
 ├── Test_Playwright_JavaScript_Part3/     # Advanced Playwright JS exercises with callbacks
+├── GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md  # Tutorial on using GitHub Copilot for QA testing
+├── package.json                          # Project dependencies (Playwright)
+├── package-lock.json                     # Lockfile for dependencies
 └── README.md                             # This file
 ```
 
@@ -37,9 +41,11 @@ LearningPlaywright/
 - `chapter_10_Strings/` — string creation, properties, searching, extracting, transforming, and conversion
 - `chapter_11_Objects/` — object creation, properties, descriptors, spread, getters/setters, and methods
 - `chapter_12_Multi_Dimentional_Arrays/` — multi-dimensional array examples and operations
+- `chapter_13_Callback/` — callback functions, synchronous and asynchronous examples, callback hell, and patterns
 - `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
 - `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises covering real-world testing scenarios
 - `Test_Playwright_JavaScript_Part3/` — Advanced Playwright JS exercises with callbacks
+- `GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md` — Tutorial on using GitHub Copilot for QA testing
 
 ## Prerequisites
 - Node.js (18+ recommended)
