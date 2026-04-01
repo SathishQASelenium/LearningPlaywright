@@ -19,6 +19,7 @@ LearningPlaywright/
 ├── chapter_11_Objects/                  # Object creation, properties, descriptors, spread, getters/setters, and methods
 ├── chapter_12_Multi_Dimentional_Arrays/  # Multi-dimensional array examples and operations
 ├── chapter_13_Callback/                  # Callback functions, synchronous and asynchronous examples, callback hell, and patterns
+├── chapter_14_Promise/                   # Promise basics, API methods, Promise.all, Promise.race, Promise.allSettled, real-world promise patterns
 ├── Task_Interview_Coding_Questions/      # Standalone interview/coding challenge implementations
 ├── Test_JavaScript_Basics_Part2_with_Coding/  # SDET-focused coding exercises
 ├── Test_Playwright_JavaScript_Part3/     # Advanced Playwright JS exercises with callbacks
@@ -42,6 +43,9 @@ LearningPlaywright/
 - `chapter_11_Objects/` — object creation, properties, descriptors, spread, getters/setters, and methods
 - `chapter_12_Multi_Dimentional_Arrays/` — multi-dimensional array examples and operations
 - `chapter_13_Callback/` — callback functions, synchronous and asynchronous examples, callback hell, and patterns
+
+### Chapter 14: Promises
+- `chapter_14_Promise/` — Promise basics, API methods (Promise.all, Promise.race, Promise.allSettled, Promise.then/catch/finally), and real-world promise patterns
 - `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
 - `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises covering real-world testing scenarios
 - `Test_Playwright_JavaScript_Part3/` — Advanced Playwright JS exercises with callbacks
@@ -216,6 +220,17 @@ node chapter_01_Basics/01_basic.js
 - `chapter_12_Multi_Dimentional_Arrays/123_MD_Pattern_RIGHT.js` — right-side pattern using multi-dimensional arrays.
 - `chapter_12_Multi_Dimentional_Arrays/124_MD_Left_hand.js` — left-hand pattern exercises.
 - `chapter_12_Multi_Dimentional_Arrays/125_Pyramid_Pattern.js` — pyramid pattern implementation.
+
+### Chapter 14: Promises
+- `chapter_14_Promise/133_Promise.js` — Promise basics, creation, and basic usage.
+- `chapter_14_Promise/134_Promise_API.js` — Promise API methods and static helpers.
+- `chapter_14_Promise/135_Promise_Catch.js` — error handling with `.catch()`.
+- `chapter_14_Promise/136_Promise_Finally.js` — `.finally()` for cleanup operations.
+- `chapter_14_Promise/137_REAL_Promise.js` — real-world Promise usage examples.
+- `chapter_14_Promise/138_Promise_ALL.js` — `Promise.all` for parallel execution.
+- `chapter_14_Promise/139_Promise_AllSettled.js` — `Promise.allSettled` for collecting all results.
+- `chapter_14_Promise/140_Promise.race.js` — `Promise.race` for fastest result.
+- `chapter_14_Promise/141_Promise_IQ.js` — interview-style Promise questions.
 
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
