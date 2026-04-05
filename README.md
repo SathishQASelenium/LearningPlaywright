@@ -21,6 +21,7 @@ LearningPlaywright/
 ├── chapter_13_Callback/                  # Callback functions, synchronous and asynchronous examples, callback hell, and patterns
 ├── chapter_14_Promise/                   # Promise basics, API methods, Promise.all, Promise.race, Promise.allSettled, real-world promise patterns
 ├── chapter_15_Async_Await/               # Async/await syntax, try/catch, sequential and parallel execution, real-world patterns
+├── chapter_16_OOps/                      # Object-Oriented Programming (classes, objects, inheritance, export/import modules)
 ├── Task_Interview_Coding_Questions/      # Standalone interview/coding challenge implementations
 ├── Test_JavaScript_Basics_Part2_with_Coding/  # SDET-focused coding exercises
 ├── Test_Playwright_JavaScript_Part3/     # Advanced Playwright JS exercises with callbacks
@@ -46,14 +47,7 @@ LearningPlaywright/
 - `chapter_13_Callback/` — callback functions, synchronous and asynchronous examples, callback hell, and patterns
 - `chapter_14_Promise/` — Promise basics, API methods (Promise.all, Promise.race, Promise.allSettled), and real-world promise patterns
 - `chapter_15_Async_Await/` — async/await syntax, try/catch, sequential and parallel execution, and real-world async patterns
-
-### Chapter 14: Promises
-- `chapter_14_Promise/` — Promise basics, API methods (Promise.all, Promise.race, Promise.allSettled, Promise.then/catch/finally), and real-world promise patterns
-- `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
-- `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises covering real-world testing scenarios
-- `Test_Playwright_JavaScript_Part3/` — Advanced Playwright JS exercises with callbacks
-- `GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md` — Tutorial on using GitHub Copilot for QA testing
-- `chapter_15_Async_Await/` — async/await syntax, try/catch error handling, sequential and parallel execution, and real-world async patterns
+- `chapter_16_OOps/` — Object-Oriented Programming with classes, objects, inheritance, and export/import modules
 
 ## Prerequisites
 - Node.js (18+ recommended)
@@ -254,6 +248,19 @@ node chapter_01_Basics/01_basic.js
 - `chapter_15_Async_Await/147_Parallel_Execution.js` — parallel execution using `Promise.all` with async/await.
 - `chapter_15_Async_Await/148_IQ.js` — interview-style async/await questions.
 - `chapter_15_Async_Await/149_API_REAL_FLAKY.js` — handling flaky API tests with retries.
+
+### Chapter 16: Object-Oriented Programming (OOps)
+- `chapter_16_OOps/150_Export_Import.js` — export and import modules.
+- `chapter_16_OOps/151_Export_Import.js` — more export/import patterns and named exports.
+- `chapter_16_OOps/152_Logger.js` — logger utility using export/import.
+- `chapter_16_OOps/153_Class_Objects.js` — class and object basics.
+- `chapter_16_OOps/154_Car.js` — class example with car objects.
+- `chapter_16_OOps/155_Class_Object_Browser.js` — browser automation with classes and objects.
+- `chapter_16_OOps/156_Browser.js` — additional browser class examples.
+- `chapter_16_OOps/157_IQ.js` — interview-style OOP questions.
+- `chapter_16_OOps/logger.js` — logger utility.
+- `chapter_16_OOps/testUtil.js` — test utility functions.
+- `chapter_16_OOps/utils.js` — general utility functions.
 
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
