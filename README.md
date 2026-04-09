@@ -48,6 +48,10 @@ LearningPlaywright/
 - `chapter_14_Promise/` — Promise basics, API methods (Promise.all, Promise.race, Promise.allSettled), and real-world promise patterns
 - `chapter_15_Async_Await/` — async/await syntax, try/catch, sequential and parallel execution, and real-world async patterns
 - `chapter_16_OOps/` — Object-Oriented Programming with classes, objects, inheritance, and export/import modules
+- `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
+- `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises
+- `Test_Playwright_JavaScript_Part3/` — advanced Playwright JS exercises with callbacks
+- `GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md` — tutorial on using GitHub Copilot for QA testing
 
 ## Prerequisites
 - Node.js (18+ recommended)
@@ -261,6 +265,12 @@ node chapter_01_Basics/01_basic.js
 - `chapter_16_OOps/logger.js` — logger utility.
 - `chapter_16_OOps/testUtil.js` — test utility functions.
 - `chapter_16_OOps/utils.js` — general utility functions.
+- `chapter_16_OOps/CLASS_OBJECT/158_Private_Public.js` — private and public members in classes.
+- `chapter_16_OOps/CLASS_OBJECT/159_Static.js` — static methods and properties.
+- `chapter_16_OOps/CLASS_OBJECT/160_Static_p2.js` — advanced static member usage.
+- `chapter_16_OOps/CLASS_OBJECT/ENCAPSULATION/161_Meeti_Child.js` — child class inheritance example.
+- `chapter_16_OOps/CLASS_OBJECT/ENCAPSULATION/162_Car.js` — car class with encapsulation.
+- `chapter_16_OOps/CLASS_OBJECT/ENCAPSULATION/163_Bank.js` — bank account class with encapsulation.
 
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
@@ -286,6 +296,11 @@ node chapter_01_Basics/01_basic.js
 - `Task_Interview_Coding_Questions/21_Objects_24032026.js` — objects exercises and practice.
 - `Task_Interview_Coding_Questions/22_2D_RightTriangle.js` — 2D right triangle pattern.
 - `Task_Interview_Coding_Questions/23_2D_Inverted_Pyramid.js` — 2D inverted pyramid pattern.
+- `Task_Interview_Coding_Questions/24_OOPS_Task1.js` — OOP task 1 - class and object exercises.
+- `Task_Interview_Coding_Questions/25_OOPS_Task2.js` — OOP task 2 - inheritance and encapsulation.
+- `Task_Interview_Coding_Questions/26_OOPS_Task3.js` — OOP task 3 - polymorphism and abstraction.
+- `Task_Interview_Coding_Questions/27_OOPS_Task4.js` — OOP task 4 - advanced OOP concepts.
+- `Task_Interview_Coding_Questions/28_OOPS_Task5.js` — OOP task 5 - real-world OOP implementation.
 
 ### Test: Playwright JavaScript Part 3
 Advanced SDET-focused coding exercises with callbacks and real-world testing scenarios:
