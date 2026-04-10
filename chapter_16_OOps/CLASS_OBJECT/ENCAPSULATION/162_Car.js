@@ -16,6 +16,6 @@ class Car {
 }
 
 let tesla = new Car("Tesla", "V8");
-console.log(tesla.getEngine());
+console.log(`tesla.getEngine() is ${tesla.getEngine()}`);
 tesla.setEngine("V9");
-console.log(tesla.getEngine());
+console.log(`tesla.getEngine() after change is ${tesla.getEngine()}`);

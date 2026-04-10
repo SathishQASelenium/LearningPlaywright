@@ -9,8 +9,8 @@ class User {
   }
 }
 
-let u1 = new User("Alice");
-let u2 = new User("Bob");
+let u1 = new User("Sathish");
+let u2 = new User("Magesh");
 
 u1.greet();
 u2.greet();

@@ -1,22 +1,22 @@
 // Private Fields (#) — Hidden Data
-// PUBIC Fields 
+// PUBLIC Fields 
 class Credentials {
-    #apiKey;
-    user;
+    #apiKey; // private field
+    user; // public field
 
     constructor(user, key) {
         this.user = user; // public
-        this.#apiKey = key;
+        this.#apiKey = key; // private field, only accessible within the class
     }
     // Custom made fuction by us
-    pramodgetAuthHeader() {
+    pramodgetAuthHeader() { // public method to access private field value of #apiKey
         return "Bearer " + this.#apiKey;
     }
 }
 
-let cred = new Credentials("admin", "scret_key_1234");
+let cred = new Credentials("admin", "secret_key_1234");
 console.log(cred.user);
-// console.log(cred.apiKey); undefined
+// console.log(cred.apiKey); //undefined
 // console.log(cred.#apiKey); //error
 
 console.log(cred.pramodgetAuthHeader());

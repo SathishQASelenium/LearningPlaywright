@@ -1,5 +1,5 @@
 class Person {
-    // Hide you childs
+    // Hide you childs by making them private using # before the variable name. This is called encapsulation.
     #child1;
     #child2;
 
@@ -10,11 +10,11 @@ class Person {
     }
 
     getChild1() {
-        return this.#child1;
+        return this.#child1; // will return the name of child1
     }
 
     setChild1(changed_name) {
-        this.#child1 = changed_name;
+        this.#child1 = changed_name; // will change the name of child1 to the new name passed as an argument
     }
 
 
@@ -22,8 +22,8 @@ class Person {
 
 let p = new Person("Meeti", "Aaryav", "Penny");
 
-console.log(p.name);
-// console.log(p.#child1);
-console.log(p.getChild1());
+console.log(`p.name is ${p.name}`);
+// console.log(p.#child1); // This will give an error because #child1 is private and cannot be accessed directly outside the class. We have to use the getter method to access it.
+console.log(`p.getChild1() is ${p.getChild1()}`);
 p.setChild1("Pratham");
-console.log(p.getChild1());
+console.log(`p.getChild1() after changed is ${p.getChild1()}`);

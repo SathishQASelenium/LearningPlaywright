@@ -1,62 +1,70 @@
-# LearningPlaywright
+﻿# LearningPlaywright
 
-Example repository for small JavaScript learning snippets used with TheTestingAcademy tutorials. Files are organized by topic (basics, core JS concepts, operators, statements, loops, switch statements, and coding tasks).
+Example repository for JavaScript learning snippets used with TheTestingAcademy tutorials. The project is organized by topic and contains beginner-to-advanced JavaScript examples, coding interview tasks, and SDET-focused Playwright-related exercises.
 
 ## Project Structure
 
 ```
 LearningPlaywright/
-├── chapter_01_Basics/                     # Beginner JS examples and environment checks
-├── chapter_02_Java_Concepts/              # Core JavaScript concepts (comments, identifiers, variables, hoisting, scope)
-├── chapter_03_Identifier_Literal_Operators_Statement/  # Identifiers, literals, types, and equality
-├── chapter_04_Operators/                 # Arithmetic, assignment, comparison, logical, string, ternary, and type operators
-├── chapter_05_Statements/                # Control flow with if/else and related examples
-├── chapter_06_Switch_Statements/          # Switch statement examples and interview-style problems
-├── chapter_07_Loops/                     # Loop constructs and loop tasks
-├── chapter_08_Arrays/                    # Array creation, manipulation, searching, iterating, transforming, and sorting
-├── chapter_09_Functions/                 # Function basics, types, arrow functions, default parameters, rest parameters, IIFE
-├── chapter_10_Strings/                   # String creation, properties, searching, extracting, transforming, and conversion
-├── chapter_11_Objects/                  # Object creation, properties, descriptors, spread, getters/setters, and methods
-├── chapter_12_Multi_Dimentional_Arrays/  # Multi-dimensional array examples and operations
-├── chapter_13_Callback/                  # Callback functions, synchronous and asynchronous examples, callback hell, and patterns
-├── chapter_14_Promise/                   # Promise basics, API methods, Promise.all, Promise.race, Promise.allSettled, real-world promise patterns
-├── chapter_15_Async_Await/               # Async/await syntax, try/catch, sequential and parallel execution, real-world patterns
-├── chapter_16_OOps/                      # Object-Oriented Programming (classes, objects, inheritance, export/import modules)
-├── Task_Interview_Coding_Questions/      # Standalone interview/coding challenge implementations
-├── Test_JavaScript_Basics_Part2_with_Coding/  # SDET-focused coding exercises
-├── Test_Playwright_JavaScript_Part3/     # Advanced Playwright JS exercises with callbacks
-├── GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md  # Tutorial on using GitHub Copilot for QA testing
-├── package.json                          # Project dependencies (Playwright)
-├── package-lock.json                     # Lockfile for dependencies
-└── README.md                             # This file
+ chapter_01_Basics/
+ chapter_02_Java_Concepts/
+ chapter_03_Identifier_Literal_Operators_Statement/
+ chapter_04_Operators/
+ chapter_05_Statements/
+ chapter_06_Switch_Statements/
+ chapter_07_Loops/
+ chapter_08_Arrays/
+ chapter_09_Functions/
+ chapter_10_Strings/
+ chapter_11_Objects/
+ chapter_12_Multi_Dimentional_Arrays/
+ chapter_13_Callback/
+ chapter_14_Promise/
+ chapter_15_Async_Await/
+ chapter_16_OOps/
+ chapter_17_OOPs_Inheritance/
+ Task_Interview_Coding_Questions/
+ Test_JavaScript_Basics_Part2_with_Coding/
+ Test_Playwright_JavaScript_Part3/
+ GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md
+ package.json
+ package-lock.json
+ README.md
 ```
 
 ## Contents
-- `chapter_01_Basics/` — beginner JS examples and environment checks
-- `chapter_02_Java_Concepts/` — core JavaScript concepts (comments, identifiers, variables, hoisting, scope)
-- `chapter_03_Identifier_Literal_Operators_Statement/` — identifiers, literals, types, and equality
-- `chapter_04_Operators/` — arithmetic, assignment, comparison, logical, string, ternary, and type operators
-- `chapter_05_Statements/` — control flow with if/else and related examples
-- `chapter_06_Switch_Statements/` — switch statement examples and interview-style problems
-- `chapter_07_Loops/` — loop constructs and loop tasks
-- `chapter_08_Arrays/` — array creation, manipulation, searching, iterating, transforming, and sorting
-- `chapter_09_Functions/` — function basics, types, arrow functions, default parameters, rest parameters, IIFE, and examples
-- `chapter_10_Strings/` — string creation, properties, searching, extracting, transforming, and conversion
-- `chapter_11_Objects/` — object creation, properties, descriptors, spread, getters/setters, and methods
-- `chapter_12_Multi_Dimentional_Arrays/` — multi-dimensional array examples and operations
-- `chapter_13_Callback/` — callback functions, synchronous and asynchronous examples, callback hell, and patterns
-- `chapter_14_Promise/` — Promise basics, API methods (Promise.all, Promise.race, Promise.allSettled), and real-world promise patterns
-- `chapter_15_Async_Await/` — async/await syntax, try/catch, sequential and parallel execution, and real-world async patterns
-- `chapter_16_OOps/` — Object-Oriented Programming with classes, objects, inheritance, and export/import modules
-- `Task_Interview_Coding_Questions/` — standalone interview/coding challenge implementations
-- `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused coding exercises
-- `Test_Playwright_JavaScript_Part3/` — advanced Playwright JS exercises with callbacks
-- `GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md` — tutorial on using GitHub Copilot for QA testing
+- `chapter_01_Basics/`  beginner JS examples and environment checks
+- `chapter_02_Java_Concepts/`  core JavaScript fundamentals, hoisting, scope, and variables
+- `chapter_03_Identifier_Literal_Operators_Statement/`  identifiers, literals, type checks, and equality
+- `chapter_04_Operators/`  arithmetic, assignment, comparison, logical, string, ternary, and type operators
+- `chapter_05_Statements/`  conditional statements and real-world if/else examples
+- `chapter_06_Switch_Statements/`  switch statements, default cases, fall-through, and interview puzzles
+- `chapter_07_Loops/`  loops with `for`, `while`, `do..while`, and loop-related exercises
+- `chapter_08_Arrays/`  array creation, manipulation, searching, iteration, transformation, sorting, copying, and destructuring
+- `chapter_09_Functions/`  functions, arrow functions, default/rest parameters, closures, callbacks, and higher-order functions
+- `chapter_10_Strings/`  string manipulation, search, extraction, conversion, and formatting
+- `chapter_11_Objects/`  object creation, property descriptors, spread, getters/setters, and object methods
+- `chapter_12_Multi_Dimentional_Arrays/`  multi-dimensional array patterns and exercises
+- `chapter_13_Callback/`  callback examples, async callbacks, callback hell, and callback-driven exercises
+- `chapter_14_Promise/`  Promise basics, error handling, Promise API methods, and interview-style Promise questions
+- `chapter_15_Async_Await/`  async/await syntax, sequential and parallel execution, and retry/flaky scenarios
+- `chapter_16_OOps/`  object-oriented programming examples, modules, classes, utilities, and encapsulation
+- `chapter_17_OOPs_Inheritance/`  inheritance patterns, export/import class examples, and hierarchical/multiple/multi-level/single inheritance
+- `Task_Interview_Coding_Questions/`  interview/coding challenge implementations for JavaScript and testing logic
+- `Test_JavaScript_Basics_Part2_with_Coding/`  SDET-style coding exercises and test automation practice tasks
+- `Test_Playwright_JavaScript_Part3/`  advanced Playwright JS exercises with callbacks, browser execution planning, and result formatting
+- `GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md`  tutorial on using GitHub Copilot for QA testing
 
 ## Prerequisites
-- Node.js (18+ recommended)
+- Node.js 18+ recommended
 
-## Install (optional: Playwright)
+## Install
+
+```bash
+npm install
+```
+
+## Playwright Setup (optional)
 
 ```bash
 npm install -D @playwright/test
@@ -65,7 +73,7 @@ npx playwright install
 
 ## Running examples
 
-Most files are standalone Node scripts. Run with:
+Most files are standalone Node scripts. Run any example with:
 
 ```bash
 node chapter_01_Basics/01_basic.js
@@ -92,7 +100,7 @@ node chapter_01_Basics/01_basic.js
 - `chapter_02_Java_Concepts/14_let_hoisting.js` — `let` and block-scoped hoisting behavior.
 - `chapter_02_Java_Concepts/15_let_block.js` — block scope examples for `let`.
 - `chapter_02_Java_Concepts/16_var_if_block.js` — `var` inside conditional blocks.
-- `chapter_02_Java_Concepts/17_rogit.js` — misc examples (small experiments).
+- `chapter_02_Java_Concepts/17_rogit.js` — misc examples and small experiments.
 - `chapter_02_Java_Concepts/18_const.js` — using `const` and immutability patterns.
 
 ### Chapter 03: Identifiers, Literals, Operators, Statements
@@ -121,7 +129,7 @@ node chapter_01_Basics/01_basic.js
 - `chapter_05_Statements/36_API_IF_ELSE.js` — conditional handling for API-like responses.
 - `chapter_05_Statements/37_IQ_IF_ESLE.js` — interview-style if/else puzzles.
 - `chapter_05_Statements/38_Logical_Op_IF_ELSE.js` — using logical operators inside conditions.
-- `chapter_05_Statements/39_IQ.js` — interview questions and edge-cases.
+- `chapter_05_Statements/39_IQ.js` — interview questions and edge cases.
 - `chapter_05_Statements/40_REAL_IF_ELSE.js` — additional real-world conditional examples.
 - `chapter_05_Statements/41_IQ.js` — more interview-style conditional problems.
 
@@ -272,62 +280,32 @@ node chapter_01_Basics/01_basic.js
 - `chapter_16_OOps/CLASS_OBJECT/ENCAPSULATION/162_Car.js` — car class with encapsulation.
 - `chapter_16_OOps/CLASS_OBJECT/ENCAPSULATION/163_Bank.js` — bank account class with encapsulation.
 
-### Task: Interview / Coding Questions
-- `Task_Interview_Coding_Questions/01_GradeCalculator.js` — grade calculator implementation.
-- `Task_Interview_Coding_Questions/02_FizzBuzz.js` — FizzBuzz problem implementation.
-- `Task_Interview_Coding_Questions/03_TriangleClassifier.js` — classify triangles by side lengths.
-- `Task_Interview_Coding_Questions/04_LeapYearChecker.js` — leap-year checking logic.
-- `Task_Interview_Coding_Questions/05_Increment_Decrement.js` — increment/decrement behavior exercises.
-- `Task_Interview_Coding_Questions/06_For_Loop_Task1.js` — for-loop challenge 1.
-- `Task_Interview_Coding_Questions/07_For_Loop_Task2.js` — for-loop challenge 2.
-- `Task_Interview_Coding_Questions/08_For_Loop_Task3.js` — for-loop challenge 3.
-- `Task_Interview_Coding_Questions/09_For_Loop_Task4.js` — for-loop challenge 4.
-- `Task_Interview_Coding_Questions/10_For_Loop_Task5.js` — for-loop challenge 5.
-- `Task_Interview_Coding_Questions/11_While_Loop_Task1.js` — while-loop challenge 1.
-- `Task_Interview_Coding_Questions/12_While_Loop_Task2.js` — while-loop challenge 2.
-- `Task_Interview_Coding_Questions/13_While_Loop_Task3.js` — while-loop challenge 3.
-- `Task_Interview_Coding_Questions/14_While_Loop_Task4.js` — while-loop challenge 4.
-- `Task_Interview_Coding_Questions/15_While_Loop_Task5.js` — while-loop challenge 5.
-- `Task_Interview_Coding_Questions/16_Arrays_API_Response_Validation.js` — validate API responses using array methods.
-- `Task_Interview_Coding_Questions/17_Arrays_Spot_the_Bug.js` — fix array sorting bug in response times.
-- `Task_Interview_Coding_Questions/18_Deep_vs_Shallow_Copy.js` — understand shallow copy reference behavior.
-- `Task_Interview_Coding_Questions/19_Functions_Task_17032026.js` — function tasks and exercises.
-- `Task_Interview_Coding_Questions/20_Functions_Strings_19032026.js` — functions and strings combined exercises.
-- `Task_Interview_Coding_Questions/21_Objects_24032026.js` — objects exercises and practice.
-- `Task_Interview_Coding_Questions/22_2D_RightTriangle.js` — 2D right triangle pattern.
-- `Task_Interview_Coding_Questions/23_2D_Inverted_Pyramid.js` — 2D inverted pyramid pattern.
-- `Task_Interview_Coding_Questions/24_OOPS_Task1.js` — OOP task 1 - class and object exercises.
-- `Task_Interview_Coding_Questions/25_OOPS_Task2.js` — OOP task 2 - inheritance and encapsulation.
-- `Task_Interview_Coding_Questions/26_OOPS_Task3.js` — OOP task 3 - polymorphism and abstraction.
-- `Task_Interview_Coding_Questions/27_OOPS_Task4.js` — OOP task 4 - advanced OOP concepts.
-- `Task_Interview_Coding_Questions/28_OOPS_Task5.js` — OOP task 5 - real-world OOP implementation.
+### Chapter 17: OOPs Inheritance
+- `chapter_17_OOPs_Inheritance/Exporting_Class/` — class export examples.
+- `chapter_17_OOPs_Inheritance/Hierarchial_Inheritance/` — hierarchical inheritance patterns.
+- `chapter_17_OOPs_Inheritance/Multiple_Inheritance/` — multiple inheritance examples.
+- `chapter_17_OOPs_Inheritance/Multi_Level_Inheritance/` — multi-level inheritance structures.
+- `chapter_17_OOPs_Inheritance/Single_Inheritance/` — single inheritance examples.
 
-### Test: Playwright JavaScript Part 3
-Advanced SDET-focused coding exercises with callbacks and real-world testing scenarios:
-- `Test_Playwright_JavaScript_Part3/01_Playwright_Result_Summary_Generator.js` — generate summary reports from Playwright test results.
-- `Test_Playwright_JavaScript_Part3/02_Build_Test_Users_from_Arrays.js` — build test user objects from separate arrays.
-- `Test_Playwright_JavaScript_Part3/03_Normalize_Locator_Error_Messages.js` — normalize and format locator error messages.
-- `Test_Playwright_JavaScript_Part3/04_Browser_Execution_Planner.js` — plan browser execution based on test priorities.
-- `Test_Playwright_JavaScript_Part3/05_Reusable_Step_Runner_with_Callback.js` — implement reusable step runner with callback support.
+### Task: Interview / Coding Questions
+- `Task_Interview_Coding_Questions/` — interview and coding challenge implementations for arrays, loops, functions, objects, OOP, and test-driven logic.
 
 ### Test: JavaScript Basics Part 2 with Coding
-SDET-focused coding exercises that apply JavaScript fundamentals to real-world testing scenarios:
-- `Test_JavaScript_Basics_Part2_with_Coding/01_API_Response_Status_Code_Validator.js` — classify HTTP status codes using switch statements.
-- `Test_JavaScript_Basics_Part2_with_Coding/02_Test_Case_Result_Counter.js` — count pass/fail/skip results and generate a test report.
-- `Test_JavaScript_Basics_Part2_with_Coding/03_Retry_Failed_API_Call.js` — simulate retrying failed API calls with loops.
-- `Test_JavaScript_Basics_Part2_with_Coding/04_Element_Visibility_Checker.js` — check UI element visibility conditions.
-- `Test_JavaScript_Basics_Part2_with_Coding/05_Test_Data_Generator.js` — generate test data programmatically.
-- `Test_JavaScript_Basics_Part2_with_Coding/06_Bug_Severity_Classifier.js` — classify bug severity using frequency and impact matrix.
-- `Test_JavaScript_Basics_Part2_with_Coding/07_Response_Time_SLA_Analyzer.js` — analyze API response times against SLA thresholds.
-- `Test_JavaScript_Basics_Part2_with_Coding/08_Test_Environment_Config.js` — manage test environment configurations.
-- `Test_JavaScript_Basics_Part2_with_Coding/09_Login_Brute-Force_Detection.js` — detect brute-force login attempts.
-- `Test_JavaScript_Basics_Part2_with_Coding/10_Mini_Test_Suite_Runner.js` — mini test runner combining all JS topics (loops, switch, operators, type checks).
+- `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused JavaScript exercises for API status validation, test reporting, retries, visibility checks, data generation, and mini test runner logic.
+
+### Test: Playwright JavaScript Part 3
+- `Test_Playwright_JavaScript_Part3/` — advanced Playwright JavaScript exercises with callback-driven step runners, result summarizers, locator message normalization, and browser execution planning.
+
+## What's updated in this project
+- Added `chapter_17_OOPs_Inheritance/` with inheritance-focused JavaScript examples.
+- Expanded `chapter_16_OOps/` with class utilities, module exports/imports, and encapsulation demos.
+- Added new SDET exercise collections in `Test_JavaScript_Basics_Part2_with_Coding/` and `Test_Playwright_JavaScript_Part3/`.
+- Maintains Playwright dependency in `package.json` for browser automation learning.
 
 ## Notes
-- These files are learning snippets and intentionally concise. They can be:
-  - Converted into Playwright tests,
-  - Enhanced with richer comments and examples,
-  - Or reorganized into a testable suite if needed.
+- These files are learning snippets and intentionally concise.
+- They can be converted into Playwright tests, enhanced with richer comments, or reorganized into a test suite.
+- `package-lock.json` is included to lock dependency versions for reproducible installs.
 
-## Quick Tip: Arrow functions & `this`
-- Arrow functions don’t have their own `this`; they inherit it from the surrounding scope. When used as object methods, they typically do **not** behave like regular function methods.
+## Quick Tip
+- Arrow functions don’t have their own `this`; they inherit it from the surrounding scope. When used as object methods, they behave differently than regular function methods.
