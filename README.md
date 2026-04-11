@@ -23,13 +23,15 @@ LearningPlaywright/
  chapter_15_Async_Await/
  chapter_16_OOps/
  chapter_17_OOPs_Inheritance/
- Task_Interview_Coding_Questions/
+  chapter_18_Typescript/
+  Task_Interview_Coding_Questions/
  Test_JavaScript_Basics_Part2_with_Coding/
  Test_Playwright_JavaScript_Part3/
- GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md
- package.json
- package-lock.json
- README.md
+  GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md
+  package.json
+  package-lock.json
+  tsconfig.json
+  README.md
 ```
 
 ## Contents
@@ -50,6 +52,7 @@ LearningPlaywright/
 - `chapter_15_Async_Await/`  async/await syntax, sequential and parallel execution, and retry/flaky scenarios
 - `chapter_16_OOps/`  object-oriented programming examples, modules, classes, utilities, and encapsulation
 - `chapter_17_OOPs_Inheritance/`  inheritance patterns, export/import class examples, and hierarchical/multiple/multi-level/single inheritance
+- `chapter_18_Typescript/`  TypeScript basics, types, interfaces, classes, and type safety features
 - `Task_Interview_Coding_Questions/`  interview/coding challenge implementations for JavaScript and testing logic
 - `Test_JavaScript_Basics_Part2_with_Coding/`  SDET-style coding exercises and test automation practice tasks
 - `Test_Playwright_JavaScript_Part3/`  advanced Playwright JS exercises with callbacks, browser execution planning, and result formatting
@@ -57,6 +60,7 @@ LearningPlaywright/
 
 ## Prerequisites
 - Node.js 18+ recommended
+- TypeScript (`npm install -g typescript`)
 
 ## Install
 
@@ -287,8 +291,13 @@ node chapter_01_Basics/01_basic.js
 - `chapter_17_OOPs_Inheritance/Multi_Level_Inheritance/` — multi-level inheritance structures.
 - `chapter_17_OOPs_Inheritance/Single_Inheritance/` — single inheritance examples.
 
+### Chapter 18: TypeScript
+- `chapter_18_Typescript/` — TypeScript basics, types, interfaces, classes, and type safety features.
+
 ### Task: Interview / Coding Questions
 - `Task_Interview_Coding_Questions/` — interview and coding challenge implementations for arrays, loops, functions, objects, OOP, and test-driven logic.
+- `Task_Interview_Coding_Questions/34_TS_Task1.ts` — TypeScript task 1
+- `Task_Interview_Coding_Questions/35_TS_Task2.ts` — TypeScript task 2
 
 ### Test: JavaScript Basics Part 2 with Coding
 - `Test_JavaScript_Basics_Part2_with_Coding/` — SDET-focused JavaScript exercises for API status validation, test reporting, retries, visibility checks, data generation, and mini test runner logic.
@@ -297,6 +306,9 @@ node chapter_01_Basics/01_basic.js
 - `Test_Playwright_JavaScript_Part3/` — advanced Playwright JavaScript exercises with callback-driven step runners, result summarizers, locator message normalization, and browser execution planning.
 
 ## What's updated in this project
+- Added `chapter_18_Typescript/` with TypeScript fundamentals and examples.
+- Added TypeScript configuration with `tsconfig.json`.
+- Added TypeScript tasks in `Task_Interview_Coding_Questions/34_TS_Task1.ts` and `35_TS_Task2.ts`.
 - Added `chapter_17_OOPs_Inheritance/` with inheritance-focused JavaScript examples.
 - Expanded `chapter_16_OOps/` with class utilities, module exports/imports, and encapsulation demos.
 - Added new SDET exercise collections in `Test_JavaScript_Basics_Part2_with_Coding/` and `Test_Playwright_JavaScript_Part3/`.
