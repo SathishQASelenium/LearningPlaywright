@@ -22,11 +22,13 @@ LearningPlaywright/
  chapter_14_Promise/
  chapter_15_Async_Await/
  chapter_16_OOps/
- chapter_17_OOPs_Inheritance/
-  chapter_18_Typescript/
-  chapter_19_Typescript_Interface/
-  chapter_20_Typescript_ENUM/
-  Task_Interview_Coding_Questions/
+  chapter_17_OOPs_Inheritance/
+   chapter_18_Typescript/
+   chapter_19_Typescript_Interface/
+   chapter_20_Typescript_ENUM/
+   chapter_21_Typescript_Generic/
+   chapter_22_Typescript_PRIVATE_PROTECTED_PUBLIC/
+   Task_Interview_Coding_Questions/
  Test_JavaScript_Basics_Part2_with_Coding/
  Test_Playwright_JavaScript_Part3/
   GitHub_Antigravity_VSCode_Copilot_QA_Tutorial.md
@@ -57,6 +59,8 @@ LearningPlaywright/
 - `chapter_18_Typescript/`  TypeScript basics, types, interfaces, classes, and type safety features
 - `chapter_19_Typescript_Interface/`  TypeScript interface examples, interface inheritance, and implementing interfaces with classes
 - `chapter_20_Typescript_ENUM/`  TypeScript enums, enum types, and practical enum usage
+- `chapter_21_Typescript_Generic/`  TypeScript generics, generic functions, interfaces, and classes with type parameters
+- `chapter_22_Typescript_PRIVATE_PROTECTED_PUBLIC/`  TypeScript access modifiers and class member visibility
 - `Task_Interview_Coding_Questions/`  interview/coding challenge implementations for JavaScript and testing logic
 - `Test_JavaScript_Basics_Part2_with_Coding/`  SDET-style coding exercises and test automation practice tasks
 - `Test_Playwright_JavaScript_Part3/`  advanced Playwright JS exercises with callbacks, browser execution planning, and result formatting
@@ -317,6 +321,8 @@ node chapter_01_Basics/01_basic.js
 - Added `chapter_18_Typescript/` with TypeScript fundamentals and examples.
 - Added `chapter_19_Typescript_Interface/` with TypeScript interface examples and interface inheritance.
 - Added `chapter_20_Typescript_ENUM/` with TypeScript enum types and practical enum usage.
+- Added `chapter_21_Typescript_Generic/` with TypeScript generics fundamentals.
+- Added `chapter_22_Typescript_PRIVATE_PROTECTED_PUBLIC/` with TypeScript access modifiers.
 - Added TypeScript configuration with `tsconfig.json`.
 - Added TypeScript tasks in `Task_Interview_Coding_Questions/34_TS_Task1.ts` and `35_TS_Task2.ts`.
 - Added Interface tasks in `Task_Interview_Coding_Questions/36_Interface_Task1.ts` through `39_Interface_Task4.ts`.
