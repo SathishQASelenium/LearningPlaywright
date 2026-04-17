@@ -1,4 +1,4 @@
-class PlaywrightConfig {
+class PlaywrightConfig { // Readonly properties cannot be modified after initialization
     readonly baseURL: string;
     readonly timeout: number;
     readonly retries: number;

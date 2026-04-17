@@ -1,4 +1,4 @@
-abstract class BaseTest {
+abstract class BaseTest { //Abstract class mostly rarely used in playwright.
     protected testName: string;
     constructor(testName: string) {
         this.testName = testName;

@@ -2,10 +2,10 @@ function getString(name: string): string {
     return "Amit";
 }
 getString("pramod");
-// getFirstResult(123);
+// getFirstResult(123); // Cannot use a number where a string is expected
 
 
-function getFirstResults<T>(results: T[]): T {
+function getFirstResults<T>(results: T[]): T { // T is datatype which can be replaced by any type when the function is called
     return results[0]!;
 }
 

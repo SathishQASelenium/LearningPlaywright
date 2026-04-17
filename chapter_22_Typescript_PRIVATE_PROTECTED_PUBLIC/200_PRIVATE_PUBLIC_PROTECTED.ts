@@ -1,7 +1,7 @@
 class APIClient {
-    public baseURL: string;
-    private apiKey: string;
-    protected timeout: number;
+    public baseURL: string; // Accessible from anywhere
+    private apiKey: string; // Accessible only within the class
+    protected timeout: number; // Accessible within the class and subclasses
 
     constructor(baseURL: string, apiKey: string, timeout: number) {
         this.baseURL = baseURL;
