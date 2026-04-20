@@ -41,6 +41,7 @@ LearningPlaywright/
 ├── chapter_20_TS_Enum/         — const enum, string/numeric enum
 ├── chapter_21_TS_Generics/     — generic functions, interfaces, classes
 ├── chapter_22_TS_Access/      — private, protected, public, readonly
+├── chapter_23_Playwright_Fund/   — Playwright setup, basics and fundamental tests
 ├── Task_Interview_Coding/       — array, loop, function challenges
 ├── Test_JS_Part2/              — SDET coding exercises
 ├── Test_Playwright_Part3/      — Playwright advanced exercises
@@ -57,7 +58,7 @@ graph TD
     F --> G[Arrays] --> H[Functions] --> I[Strings] --> J[Objects] --> K[Multi-D Arrays]
     K --> L[Callbacks] --> M[Promises] --> N[Async/Await]
     N --> O[OOPs] --> P[Inheritance] --> Q[TypeScript] --> R[Interface] --> S[Enum] --> T[Generics] --> U[Access Modifiers]
-    U --> V[Interview Tasks] --> W[SDET Exercises] --> X[Playwright]
+    U --> V[Access Modifiers] --> W[Playwright Fundamentals] --> X[Interview Tasks] --> Y[SDET Exercises] --> Z[Advanced Playwright]
 ```
 *(If mermaid is not supported, see the logical flow: Fundamentals → Data Structures → Async → OOP → TypeScript → Practice)*
 
@@ -98,6 +99,7 @@ var x = 10;         // Assignment happens here
 | **13-15** | Async Programming | 🔴 Advanced | Callbacks, promises, async/await |
 | **16-17** | OOP & Inheritance | 🟡 Intermediate | Classes, inheritance, encapsulation |
 | **18-22** | TypeScript | 🔴 Adv-Int | Types, interfaces, enums, generics |
+| **23** | Playwright Basics | 🟢 Beginner | Playwright setup, fundamental tests |
 
 ---
 
@@ -108,7 +110,8 @@ var x = 10;         // Assignment happens here
 - **Async Programming (Ch 13-15):** Callbacks, promises, async/await.
 - **OOP & Patterns (Ch 16-17):** Classes, inheritance, encapsulation.
 - **TypeScript (Ch 18-22):** Types, interfaces, enums, generics, access modifiers.
-- **Practice (Ch 23+):** Interview questions, SDET exercises, Playwright.
+- **Playwright Fundamentals (Ch 23):** Browser automation basics and setup.
+- **Practice (Ch 24+):** Interview questions, SDET exercises, Playwright.
 
 ---
 
@@ -173,6 +176,7 @@ npx playwright install
 | `20_TS_Enum` | const enum, string/numeric enum |
 | `21_TS_Generics` | Generic functions, interfaces, classes |
 | `22_TS_Access` | private, protected, public, readonly |
+| `23_Playwright_Fund` | Playwright installation, config, and basic tests |
 | `Task_Interview` | Array, loop, function coding challenges |
 | `Test_JS_Part2` | SDET-style coding and test logic exercises |
 | `Test_Playwright` | Advanced Playwright exercises with browser planning |
